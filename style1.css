@@ -1,0 +1,46 @@
+/* Styling the complete page */
+body {
+	background-color: #BD979B;
+	font-family: Arial;
+}
+/* Styling the heading */
+h1 {
+	color: #7D5055;
+	text-align: center;
+	border: 2px solid #986168;
+	padding: 10px;
+	margin: 20px;
+}
+/* Styling paragraphs */
+p{
+    	color: #333;
+	font-size: 18px;
+	line-height:1.5;
+}
+
+/* Styling links */
+a {
+    	color: red;
+	text-decoration: none;
+}
+
+/* Link when mouse is palced over it */
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+/* Creating a box */
+.box{
+    background-color: white;
+    border: 2px solid black;
+    width: 400px;
+    padding: 20px;
+    margin: 30px auto;
+}
+/* Styling a part of the text */
+.highlight {
+	color: white;
+	background-color: orange;
+	padding: 3px;
+}
+	
