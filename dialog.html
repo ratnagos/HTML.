@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>JavaScript Dialog Boxes</title>
+</head>
+<body>
+
+<script>
+	// prompt() -accepts input from the user
+        let name = prompt("Enter your name:");
+
+        // alert() -display a message
+	alert("Hello," + name +"!");
+	
+	// confirm() - asks for confirmation
+	let choice = confirm("Do you want to continue?");
+	
+	if(choice){
+	        alert("You selected Continue.");
+	} else {
+		alert("You selected Cancel.");
+}
+  </script>
+
+</body>
+</html>
