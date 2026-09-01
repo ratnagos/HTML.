@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function fact(){
+var i, num , f;
+f = 1;
+num= document.getElementById("num1").value;
+for(i = 1; i <= num; i++)
+{f = f*i;}
+document.getElementById("res").innerHTML = "The factorial of " + num+ " is" +f;
+}
+</script></head>
+<body font-size:20px;>
+Enter a number: <input id ="num1">
+<br>
+<button onclick ="fact()">Factorial</button>
+<p id= "res" style ="font-size:40"></p>
+</body>
+</html>
