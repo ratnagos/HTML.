@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Date Functions </title>
+</head>
+<body>
+     
+     <h2>JavaScript Date Functions</h2>
+     <button onclick="showDate()">Show Date Details</button>
+     <p id="result"></p>
+
+	<script>
+	   function showDate() {
+		let today = new Date();
+	
+			document.getElementById("result").innerHTML =
+			   "Current Date: " + today.toLocaleDateString() + "<br>" +
+			   "Current Time: " + today.toLocaleTimeString() + "<br>" +
+			   "Year: " + today.getFullYear() + "<br>" +
+			   "Month: " + (today.getMonth() +1) + "<br>" +
+			   "Date: " + today.getDate();
+	  }
+	</script>
+</body>
+</html>
+				
